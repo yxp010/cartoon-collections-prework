@@ -2,7 +2,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   # Your code here
   number = 1
   dwarves.each do |dwarve|
-    prints "#{number}. #{dwarve}"
+    print "#{number}. #{dwarve}"
     number += 1
   end
 
